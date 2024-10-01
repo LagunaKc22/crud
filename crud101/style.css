@@ -1,0 +1,84 @@
+
+
+.form-container {
+	width: 400px;
+	background-color: transparent;
+}
+
+.form-input-label {
+	display: block;
+	margin-bottom: 10px;
+	background-color: transparent;
+	overflow: hidden;
+}
+
+.form-text-label {
+	display: inline-block;
+	background-color: transparent;
+	width: 25%;
+	float: left;
+}
+
+.form-control {
+	padding:5px;
+	width:75%;
+	height:30px;
+	box-sizing:border-box;
+	float: left;
+	display: inline-block;
+}
+
+.form-button {
+	width: 150px;
+	height: 30px;
+	margin:15px 0px;
+	cursor: pointer;
+}
+
+.move-right {
+	float:right;
+}
+
+.alert-message-success {
+	background-color: green;
+	padding:10px 20px;
+	box-sizing: border-box;
+	color: #fff;
+	margin: 15px 0px;
+}
+
+.alert-message-error {
+	background-color: red;
+	padding:10px 20px;
+	box-sizing: border-box;
+	color: #fff;
+	margin: 15px 0px;
+}
+
+
+.records-container {
+	width: 700px;
+}
+
+.table-records {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.table-records th,
+.table-records td {
+	border: 1px solid rgb(200,200,200);
+	padding:10px;
+}
+
+.table-records thead tr {
+	background-color: rgb(200,200,200);
+}
+
+.table-records tbody tr:nth-child(odd) {
+	background-color: #fff;
+}
+
+.table-records tbody tr:nth-child(even) {
+	background-color: rgb(230,230,230);
+}
